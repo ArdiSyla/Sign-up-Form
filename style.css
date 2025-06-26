@@ -76,3 +76,53 @@ body {
     margin-bottom: 0;
     font-family: 'italic', sans-serif;
 }
+.form-section {
+     background-color: white;
+     padding: 40px;
+     margin-left: -50px;
+     margin-right: -50px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     margin-bottom: 30px;
+}
+
+ .form-title {
+     margin-bottom: 20px;
+     font-size: 1.5rem;
+ }
+ form {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     margin-bottom: 30px;
+ }
+
+ .form-group {
+     flex: 1 0 40%;
+     min-width: 250px;
+ }
+
+ label {
+     display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+     color: #333;
+ }
+
+ input {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     font-size: 1rem;
+ }
+
+ input:focus {
+     outline: none;
+     border-color: #4a90e2;
+     box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+ }
+
+input[type="password"]:invalid{
+    border-color: #ff3b3b;
+    box-shadow: 0 0 5px rgba(255, 59, 59, 0.5);
+}
