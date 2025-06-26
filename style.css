@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "norse-bold";
+    src: url(Norse-Bold.otf);
+}
+
 body {
     display: flex;
     height: 100vh;
@@ -39,7 +44,7 @@ body {
 }
 .logo-text {
     color: white;
-    font-family: "Agu Display", sans-serif;
+    font-family: "norse-bold", sans-serif;
     font-size: 5rem;
 }
 .photo-credit {
